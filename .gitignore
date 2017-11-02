@@ -1,22 +1,19 @@
-# Compiled class file
-*.class
+# Commons
 
-# Log file
-*.log
+# Logs
+**/*.log
 
-# BlueJ files
-*.ctxt
+# Runtime data
+*.pid
+*.seed
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# for text editors
+**/*.*~
 
-# Package Files #
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# for idea
+.idea/
+*.iml
+**/target/
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# Mac Folder Structure
+.DS_Store
